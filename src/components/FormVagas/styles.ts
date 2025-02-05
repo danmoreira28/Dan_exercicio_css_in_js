@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const Formulario = styled.form`
   display: grid;
@@ -30,7 +30,7 @@ export const Botao = styled.button`
 
 export const Campo = styled.input`
   padding: 0 16px;
-  outline-color:var(--cor-principal);
+  outline-color: var(--cor-principal);
 
   @media (max-width: 768px) {
     padding: 12px;

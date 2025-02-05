@@ -15,10 +15,12 @@ const FormVagas = ({ aoPesquisar }: Props) => {
 
   return (
     <Formulario onSubmit={aoEnviarForm}>
-      <Campo placeholder="Front-end, fullstack, node, design" onChange={(e) => setTermo(e.target.value)} type="search" />
-      <Botao type="submit">
-        Pesquisar
-      </Botao>
+      <Campo
+        placeholder="Front-end, fullstack, node, design"
+        onChange={(e) => setTermo(e.target.value)}
+        type="search"
+      />
+      <Botao type="submit">Pesquisar</Botao>
     </Formulario>
   )
 }

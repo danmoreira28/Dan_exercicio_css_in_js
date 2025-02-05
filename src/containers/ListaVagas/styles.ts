@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const Vagas = styled.div`
   display: grid;
@@ -9,5 +9,5 @@ export const Vagas = styled.div`
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-}
+  }
 `

@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const Vagas = styled.li`
   border: 1px solid var(--cor-principal);
@@ -6,13 +6,13 @@ export const Vagas = styled.li`
   color: var(--cor-principal);
   padding: 16px;
   margin-top: 16px;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
   border-radius: 8px;
 
   &:hover {
-  background-color: var(--cor-principal);
-  color: var(--cor-secundaria);
-}
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+  }
 `
 
 export const Title = styled.h3`
